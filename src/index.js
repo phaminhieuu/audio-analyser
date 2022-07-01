@@ -17,12 +17,12 @@ function Overlay() {
             'loading'
           ) : (
             <>
-              <span style={{ color: '#606060' }}>this sandbox needs</span>
+              <span style={{ color: '#606060' }}>Sẽ có nhạc đấy</span>
               <br />
-              <span style={{ color: '#606060' }}>user interaction for audio</span>
+              <span style={{ color: '#606060' }}>Nhớ cắm tai nghe</span>
               <br />
               <b>
-                <span style={{ color: 'black' }}>click to continue</span>
+                <span style={{ color: 'black' }}>Bấm zô đi người đẹp</span>
               </b>
             </>
           )}
