@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import React, { Suspense, useEffect, useRef, useState, useMemo } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { useGLTF, useAnimations, Reflector, MeshReflectorMaterial, useTexture } from '@react-three/drei'
+import { useGLTF, useAnimations, Reflector, MeshReflectorMaterial, useTexture, OrbitControls } from '@react-three/drei'
 import useStore from './store'
 
 const HPI = Math.PI / 2
@@ -30,6 +30,7 @@ export default function App(props) {
         </group>
         <Intro />
       </Suspense>
+      <OrbitControls />
     </Canvas>
   )
 }
