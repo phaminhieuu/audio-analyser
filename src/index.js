@@ -16,15 +16,15 @@ function Overlay() {
           {!loaded ? (
             'loading'
           ) : (
-            <>
-              <span style={{ color: '#606060' }}>Sẽ có nhạc đấy</span>
+            <div style={{ textAlign: 'center' }}>
+              <span style={{ color: '#606060' }}>This website will have music</span>
               <br />
-              <span style={{ color: '#606060' }}>Nhớ cắm tai nghe</span>
+              {/* <span style={{ color: '#606060' }}>Nhớ cắm tai nghe</span> */}
               <br />
               <b>
-                <span style={{ color: 'black' }}>Bấm zô đi người đẹp</span>
+                <span style={{ color: 'black' }}>Click to continue</span>
               </b>
-            </>
+            </div>
           )}
         </div>
       </div>
